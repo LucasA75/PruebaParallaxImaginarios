@@ -1,0 +1,19 @@
+.Header__Container{
+    height: 100vh;
+    --opacidad-negro: 0.5;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("PQ1.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.Container_About{
+    height: 100vh;
+}
+
+.Container__Info{
+    height: 100vh;
+}
+
+.Container__Footer{
+    height: 100vh;
+}

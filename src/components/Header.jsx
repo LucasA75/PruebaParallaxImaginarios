@@ -6,7 +6,7 @@ const Header = () => {
             <section class="layout-hero d-flex flex-column text-light min-vh-100">
                 <div class="header-content d-flex flex-column flex-fill">
                     <div class="d-flex flex-column container justify-content-center align-items-center flex-fill text-center">
-                        <h3 class="header-title display-2 font-weight-lighter">
+                        <h3 class="header-title display-1 font-weight-lighter">
                             Imaginarios de la Escena
                         </h3>
                         <p class="header-subtitle lead font-weight-lighter">

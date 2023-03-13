@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .Header__Container{
     height: 100vh;
     --opacidad-negro: 0.5;
@@ -7,13 +10,17 @@
 }
 
 .Container_About{
-    height: 100vh;
+    height: fit-content;
 }
 
 .Container__Info{
-    height: 100vh;
+    height: fit-content;
 }
 
 .Container__Footer{
     height: 100vh;
+}
+
+.Figure__About{
+    width: fit-content;
 }

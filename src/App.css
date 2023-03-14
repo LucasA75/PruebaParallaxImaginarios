@@ -1,26 +1,69 @@
+/* 
+Thin 100
+Thin 100 Italic
+Regular 400
+Bold 700 Italic */
+
 html{
     scroll-behavior: smooth;
 }
+
+/* NAVBAR */
+.site-nav p{
+    font-weight: 400;
+    font-family: "Lato";
+}
+
+
+/* HEADER */
 .Header__Container{
     height: 100vh;
     --opacidad-negro: 0.5;
-    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("PQ1.png");
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("/PQ1.png");
     background-repeat: no-repeat;
     background-size: cover; 
 }
 
+.Header__Container h1{
+    font-weight: 400;
+    font-family: "Lato";
+    font-size:10vh;
+}
+
+
+/* ABOUT */
 .Container_About{
     height: fit-content;
 }
+
+.Figure__About{
+    width: fit-content;
+}
+
+.Main__About p{
+    font-weight: 600;
+    font-family: "Lato";
+    font-size:4.5vh;
+}
+
+.Container_About h2{
+    font-weight: 500;
+    font-family: "Lato";
+    font-size:8vh;
+}
+
+/* INFO */
 
 .Container__Info{
     height: fit-content;
 }
 
+/* FOOTER */
+
 .Container__Footer{
-    height: 100vh;
+    height: fit-content;
 }
 
-.Figure__About{
-    width: fit-content;
+.Container__Footer img{
+    filter: grayscale();
 }

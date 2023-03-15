@@ -3,8 +3,8 @@ import Person from "../assets/person.jpg"
 
 const Footer = () => {
   return (
-    <div className='Container__Footer container-fluid bg-warning d-flex flex-column justify-content-center ' id='Sobre'>
-      <header>
+    <div className='Container__Footer container-fluid bg-warning d-flex flex-column justify-content-center ' id='Nosotros'>
+      <header className='container-lg vh-100 d-flex align-items-center justify-content-center'>
         <h2 className='text-center'>¿Quién hizo parte de este proyecto?</h2>
       </header>
       <p>Aqui fotos de todos los que participaron - Creo que quedaria bien con un filtro monocromatico</p>

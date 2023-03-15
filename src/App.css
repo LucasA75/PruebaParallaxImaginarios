@@ -15,13 +15,7 @@ html{
 }
 
 .site-nav{
-    backdrop-filter: blur(24px);
-    background-color: (rgba(0, 0, 0, 0.50));
-}
-
-.navbar-collapse{
-    backdrop-filter: blur(24px);
-    background-color: (rgba(0, 0, 0, 0.50));
+    z-index: 3;
 }
 
 /* HEADER */
@@ -49,6 +43,12 @@ html{
     width: fit-content;
 }
 
+.Container_About h2{
+    font-weight: 500;
+    font-family: "Lato";
+    font-size:10vw;
+}
+
 .Main__About p{
     font-weight: 600;
     font-family: "Lato";
@@ -56,11 +56,7 @@ html{
     color: black;
 }
 
-.Container_About h2{
-    font-weight: 500;
-    font-family: "Lato";
-    font-size:7vw;
-}
+
 
 /* INFO */
 
@@ -71,7 +67,7 @@ html{
 .Container__Info h2{
     font-weight: 500;
     font-family: "Lato";
-    font-size:5vw;
+    font-size:10vw;
 }
 
 /* FOOTER */
@@ -83,7 +79,7 @@ html{
 .Container__Footer h2{
     font-weight: 500;
     font-family: "Lato";
-    font-size:5vw;
+    font-size:10vw;
 }
 
 .Container__Footer img{

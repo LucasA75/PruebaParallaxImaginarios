@@ -4,7 +4,9 @@ import PQ from "../assets/PQ1.png";
 const Info = () => {
   return (
     <div className='Container__Info container-fluid m-0 p-3 bg-dark' id='Chile'>
-      <h2 className='text-light text-center'>¿Cuál es la relación de la PQ con Chile?</h2>
+      <section className='container-lg vh-100 d-flex align-items-center justify-content-center'>
+      <h2 className='text-light'>¿Cuál es la relación de la PQ con Chile?</h2>
+      </section>
       <section className='container-lg d-flex flex-column'>
         <h5 className='text-white display-6'>Tuvimos la oportunidad de representar a Chile en la PQ y poder nutrirnos de todo el arte que se muestra
           para poder asi traer todo ese conocimiento a nuestra tierra

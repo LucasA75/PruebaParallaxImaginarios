@@ -14,12 +14,21 @@ html{
     font-family: "Lato";
 }
 
+.site-nav{
+    backdrop-filter: blur(24px);
+    background-color: (rgba(0, 0, 0, 0.50));
+}
+
+.navbar-collapse{
+    backdrop-filter: blur(24px);
+    background-color: (rgba(0, 0, 0, 0.50));
+}
 
 /* HEADER */
 .Header__Container{
     height: 100vh;
     --opacidad-negro: 0.5;
-    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("/PQ1.png");
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("./assets/PQ1.png");
     background-repeat: no-repeat;
     background-size: cover; 
 }
@@ -27,7 +36,7 @@ html{
 .Header__Container h1{
     font-weight: 400;
     font-family: "Lato";
-    font-size:10vh;
+    font-size:10vw;
 }
 
 
@@ -44,12 +53,13 @@ html{
     font-weight: 600;
     font-family: "Lato";
     font-size:4.5vh;
+    color: black;
 }
 
 .Container_About h2{
     font-weight: 500;
     font-family: "Lato";
-    font-size:8vh;
+    font-size:7vw;
 }
 
 /* INFO */
@@ -58,10 +68,22 @@ html{
     height: fit-content;
 }
 
+.Container__Info h2{
+    font-weight: 500;
+    font-family: "Lato";
+    font-size:5vw;
+}
+
 /* FOOTER */
 
 .Container__Footer{
     height: fit-content;
+}
+
+.Container__Footer h2{
+    font-weight: 500;
+    font-family: "Lato";
+    font-size:5vw;
 }
 
 .Container__Footer img{

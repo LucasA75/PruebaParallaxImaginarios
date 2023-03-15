@@ -1,12 +1,14 @@
 import React from 'react'
-import PQ from '/PQ1.png';
+import PQ from "../assets/PQ1.png";
 const About = () => {
   return (
     <div className='Container_About container-fluid bg-danger' id='Info'>
+      <section className='container-lg vh-100 d-flex align-items-center justify-content-center'>
       <h2 className='display-1 text-center'>Que es la PQ?</h2>
+      </section>
       {/* Borrar esto despues */}
       Fotos, Fotos y Mas Fotos que se mueven con el scroll
-      <main className='Main__About'>
+      <main className='Main__About container-lg'>
         <section className='d-flex flex-column my-3'>
           <div className="row">
             <div className="col-md-6 d-flex justify-content-center align-items-center">

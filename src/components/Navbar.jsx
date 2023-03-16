@@ -1,8 +1,9 @@
 import React from 'react'
 
 const Navbar = () => {
+
   return (
-    <nav className="site-nav navbar navbar-expand-md navbar-dark w-100 position-fixed p-0 bg-dark ">
+    <nav className="site-nav navbar navbar-expand-md navbar-dark w-100 position-fixed p-0 bg-dark">
       <div className="Nav-Container container-fluid d-flex align-items-center">
         <a className="navbar-brand font-weight-normal" href="#Inicio">
           {/*   <i className="fas fa-cube mr-2"></i> */}

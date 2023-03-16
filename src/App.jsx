@@ -7,16 +7,15 @@ import Info from './components/Info'
 import Footer from './components/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-   <div>
+   <>
     <Navbar/>
     <Header/>
-    <About/>
+    <About></About>
     <Info/>
     <Footer/>
-   </div>
+   </>
   )
 }
 

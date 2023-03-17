@@ -10,7 +10,7 @@ const Header = () => {
     const h1Ref = useRef(null)
     useEffect(()=>{
         const elemento = h1Ref.current;
-        gsap.fromTo(elemento,{marginTop:-400},{marginTop:0, duration:3})
+        gsap.fromTo(elemento,{y:-400},{y:0, duration:3})
     })
 
     return (

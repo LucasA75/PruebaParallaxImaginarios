@@ -5,18 +5,22 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
-
 const Footer = () => {
 
   const h2Ref = useRef(null)
   useEffect(()=>{
-      const elemento = h2Ref.current;
-      gsap.fromTo(elemento,{rotation:0},{rotation:180, duration:3 , scrollTrigger:{
+      const element = h2Ref.current;
+
+      
+
+      gsap.fromTo(element,{y:-400},{y:0, duration:3, scrollTrigger:{
           markers: true,
-          trigger: elemento
+          start:"-500",
+          end:"+500",
+          trigger: element,
       }
       })
-  })
+  },[])
 
 
   return (

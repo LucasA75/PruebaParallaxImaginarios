@@ -1,16 +1,27 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import PQ from "../assets/PQ1.png";
+import { useInView } from 'framer-motion';
 
 const About = () => {
 
+  const ref = useRef(null)
+  const isInView = useInView(ref)
+
   return (
     <div className='Container_About container-fluid' id='Sobre'>
-      <section className='container-lg vh-100 d-flex align-items-center justify-content-center'>
-        <h2 className='display-1 text-center parrafo'>¿Que es la PQ?</h2>
+      <section ref={ref} className='container-lg vh-100 d-flex align-items-center justify-content-center'>
+        <h2 className='display-1 text-center parrafo'
+        style={{
+          transform: isInView ? "none" : "translateX(-250vw)",
+            opacity: isInView ? "1" : "0",
+            transition: "all 0.7s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s"
+        }}
+        
+        >¿Que es la PQ?</h2>
       </section>
       <main className='Main__About container-lg'>
         <div className='row'>
-          <div className='col-md-3 display-1 '>
+          <div className='Main__Col1 col-md-3 display-1 '>
             <p className='border-bottom border-4 border-dark pb-5'>
               ¿Que es la PQ?
             </p>

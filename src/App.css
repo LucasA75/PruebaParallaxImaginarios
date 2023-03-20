@@ -57,7 +57,6 @@ html{
 }
 
 
-
 /* INFO */
 
 .Container__Info{
@@ -68,6 +67,11 @@ html{
     font-weight: 500;
     font-family: "Lato";
     font-size:10vw;
+}
+
+.Main__Col1 p{
+    position: sticky;
+    top: 50px;
 }
 
 /* FOOTER */

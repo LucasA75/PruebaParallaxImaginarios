@@ -1,32 +1,23 @@
 import React from 'react'
 import Person from "../assets/person.jpg"
 import { useRef,useEffect } from 'react'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-gsap.registerPlugin(ScrollTrigger)
+import { useInView } from 'framer-motion'
 
 const Footer = () => {
 
-  const h2Ref = useRef(null)
-  useEffect(()=>{
-      const element = h2Ref.current;
-
-      
-
-      gsap.fromTo(element,{y:-400},{y:0, duration:3, scrollTrigger:{
-          markers: true,
-          start:"-500",
-          end:"+500",
-          trigger: element,
-      }
-      })
-  },[])
-
+  const ref = useRef(null)
+  const isInView = useInView(ref)
 
   return (
     <div className='Container__Footer container-fluid bg-warning d-flex flex-column justify-content-center p-0' id='Nosotros'>
-      <header className='container-lg vh-100 d-flex align-items-center justify-content-center'>
-        <h2 className='text-center' ref={h2Ref}>¿Quién Somos?</h2>
+      <header ref={ref} className='container-lg vh-100 d-flex align-items-center justify-content-center'>
+        <h2 className='text-center'
+        style={{
+          transform: isInView ? "none" : "translateX(-250vw)",
+          opacity: isInView ? "1" : "0",
+          transition: "all 0.7s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s"
+        }}
+        >¿Quién Somos?</h2>
       </header>
       <section className='Section__Footer row row-cols row-cols-md-3 text-center'>
         <div className="col mb-4">

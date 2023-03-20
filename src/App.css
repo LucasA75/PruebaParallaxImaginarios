@@ -25,6 +25,7 @@ html{
     background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("./assets/PQ1.png");
     background-repeat: no-repeat;
     background-size: cover; 
+    background-attachment: fixed;
 }
 
 .Header__Container h1{

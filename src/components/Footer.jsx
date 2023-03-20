@@ -10,7 +10,8 @@ const Footer = () => {
 
   return (
     <div className='Container__Footer container-fluid bg-warning d-flex flex-column justify-content-center p-0' id='Nosotros'>
-      <header ref={ref} className='container-lg vh-100 d-flex align-items-center justify-content-center'>
+      <header className='container-lg vh-100 d-flex align-items-center justify-content-center'>
+        <div ref={ref} className='bg-primary position-' style={{paddingTop:"200px", paddingBottom:"200px"}}>
         <h2 className='text-center'
         style={{
           transform: isInView ? "none" : "translateX(-250vw)",
@@ -18,6 +19,7 @@ const Footer = () => {
           transition: "all 0.7s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s"
         }}
         >¿Quién Somos?</h2>
+        </div>   
       </header>
       <section className='Section__Footer row row-cols row-cols-md-3 text-center'>
         <div className="col mb-4">

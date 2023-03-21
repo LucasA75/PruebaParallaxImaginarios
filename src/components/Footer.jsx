@@ -2,6 +2,7 @@ import React from 'react'
 import Person from "../assets/person.jpg"
 import { useRef,useEffect } from 'react'
 import { useInView } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 const Footer = () => {
 
@@ -11,7 +12,7 @@ const Footer = () => {
   return (
     <div className='Container__Footer container-fluid bg-warning d-flex flex-column justify-content-center p-0' id='Nosotros'>
       <header className='container-lg vh-100 d-flex align-items-center justify-content-center'>
-        <div ref={ref} className='bg-primary position-' style={{paddingTop:"200px", paddingBottom:"200px"}}>
+        <div ref={ref} className='' style={{paddingTop:"200px", paddingBottom:"200px"}}>
         <h2 className='text-center'
         style={{
           transform: isInView ? "none" : "translateX(-250vw)",
@@ -21,31 +22,31 @@ const Footer = () => {
         >¿Quién Somos?</h2>
         </div>   
       </header>
-      <section className='Section__Footer row row-cols row-cols-md-3 text-center'>
-        <div className="col mb-4">
+      <section className='Section__Footer row row-cols row-cols-md-3 text-center p-0 m-0'>
+        <motion.div className="col mb-4" whileHover={{scale:1.1}}>
           <img src={Person} width={300}></img>
-        </div>
-        <div className="col mb-4">
+        </motion.div>
+        <motion.div className="col mb-4" whileHover={{scale:1.1}}>
           <img src={Person} width={300}></img>
-        </div>
-        <div className="col mb-4">
+        </motion.div>
+        <motion.div className="col mb-4" whileHover={{scale:1.1}}>
+          <img src={Person} width={300} ></img>
+        </motion.div>
+        <motion.div className="col mb-4" whileHover={{scale:1.1}}>
           <img src={Person} width={300}></img>
-        </div>
-        <div className="col mb-4">
+        </motion.div>
+        <motion.div className="col mb-4" whileHover={{scale:1.1}}>
           <img src={Person} width={300}></img>
-        </div>
-        <div className="col mb-4">
+        </motion.div>
+        <motion.div className="col mb-4" whileHover={{scale:1.1}}>
           <img src={Person} width={300}></img>
-        </div>
-        <div className="col mb-4">
-          <img src={Person} width={300}></img>
-        </div>
+        </motion.div>
       </section>
-      <footer className='text-bg-dark container-fluid'>
-        <span className='border border-white border-2'>
+      <footer className='text-bg-dark py-3 container-fluid d-flex justify-content-between'>
+        <span className=''>
            <h3 className='pt-2'>Imaginarios de la Escena</h3>
         </span>
-        <section>
+        <section className='me-5'>
           <ul>
             <li>Terminos y Condiciones</li>
             <li>Contacto</li>

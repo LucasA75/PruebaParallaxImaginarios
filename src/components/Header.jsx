@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 const Header = () => {
     return (
@@ -10,12 +11,24 @@ const Header = () => {
                             Imaginarios de la Escena
                         </h1>
                         <p class="header-subtitle lead font-weight-lighter">
-                            Nuestra investigacion abrira muchas puertas hacia el arte escenico.<br /> Brindaremos info
-                            a todas las personas en esta pagina bla bvla
+                            Nuestra investigacion abrira muchas puertas hacia el arte escenico. <br></br>
+                            Conoce todo sobre esta
                         </p>
                     </div>
                 </div>
             </section>
+    {/*         <motion.div
+                style={{ width: "300px", background: "blue", height: "300px", opacity:0.2}}
+                drag
+                whileHover={{ opacity: 1 }}
+                whileTap={{
+                    opacity: 1,
+                    scale: 1.05,
+                    boxShadow: "0px 5px 8px #222",
+                }}
+                whileDrag={{ scale: 1.1, boxShadow: "0px 10px 16px #222" }}
+                transition={{ duration: 0.6 }}
+            >asdasd</motion.div> */}
         </div>
     )
 }

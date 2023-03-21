@@ -4,7 +4,7 @@ import { useRef } from 'react';
 import { useInView } from 'framer-motion';
 
 
-const Info = () => {
+const Chile = () => {
 
   const ref = useRef(null)
   const isInView = useInView(ref)
@@ -22,16 +22,16 @@ const Info = () => {
         >Relación de la PQ con Chile</h2>
       </section>
       <section className='container-lg d-flex flex-column'>
-        <h5 className='text-white display-6'>Tuvimos la oportunidad de representar a Chile en la PQ y poder nutrirnos de todo el arte que se muestra
+        <h5 className='text-white display-6 py-5'>Tuvimos la oportunidad de representar a <span className='Chile__Section__span'>Chile</span> en la PQ y poder nutrirnos de todo el arte que se muestra
           para poder asi traer todo ese conocimiento a nuestra tierra
         </h5>
         <img src={PQ} className='img-thumbnail' />
       </section>
       <section className='container-lg'>
-        <p className='text-white m-0 display-6'>Nuestro Objetivo es que los que esten interesados en el arte teatral se beneficien de nuestra investigacion
+        <p className='text-white m-0 display-6 py-5'><span className='Chile__Section__span'>Nuestro objetivo</span> es que los que esten interesados en el arte teatral se beneficien de nuestra investigacion
           y puedan brindarles una nueva perspectiva o forma de vista del arte escenico
         </p>
-        <div className="row row-col-3 mt-3 pb-5">
+        <section className="Chile__Section__img row row-col-3 mt-3 pb-5">
           <div className="col">
             <img src={PQ} width={700} className='img-thumbnail' />
           </div>
@@ -41,10 +41,10 @@ const Info = () => {
           <div className="col">
             <img src={PQ} width={700} className='img-thumbnail' />
           </div>
-        </div>
+        </section>
       </section>
     </div>
   )
 }
 
-export default Info
+export default Chile

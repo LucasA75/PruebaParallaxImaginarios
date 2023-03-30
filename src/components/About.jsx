@@ -11,7 +11,6 @@ const About = () => {
   return (
     <div className='Container_About container-fluid' id='Sobre'>
       <section ref={ref} className='container-lg vh-100 d-flex align-items-center justify-content-center'>
-        <div>
         <h2 className='display-1 text-center parrafo'
           style={{
             transform: isInView ? "none" : "translateX(-250vw)",
@@ -20,17 +19,8 @@ const About = () => {
           }}
 
         >
-        ¿Que es la
-        <motion.div
-        drag
-        whileDrag={{scale:2 , color:"red"}}
-        style={{width:"", margin:"0"}}
-        >PQ
-        </motion.div>
-        ?
+        ¿Que es la PQ ?
         </h2>
-        </div>
-     
       </section>
       <main className='Main__About container-lg'>
         <div className='row min-vh-100'>

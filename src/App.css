@@ -3,8 +3,11 @@ Thin 100
 Thin 100 Italic
 Regular 400
 Bold 700 Italic */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
 
 html{
+    font-family: 'Lato', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -39,12 +42,15 @@ html{
     background-attachment: fixed;
 }
 
+.Header_Encabezados{
+    height: 300px;
+}
+
 .Header__Container h1{
     font-weight: 400;
     font-family: "Lato";
     font-size:10vw;
 }
-
 
 
 /* ABOUT */
@@ -75,6 +81,11 @@ html{
     color: black;
 }
 
+.Main__Col1 p{
+    position: sticky;
+    top: 50px;
+}
+
 
 /* Chile */
 
@@ -88,21 +99,25 @@ html{
     font-size:10vw;
 }
 
-.Main__Col1 p{
-    position: sticky;
-    top: 50px;
-}
-
 .Chile__Section__span{
     color: rgb(255, 26, 26);
     font-style: oblique;
     font-weight: bolder;
 }
 
+.Chile__Section__img{
+    min-height: 60vh
+}
+
+
 /* FOOTER */
 
 .Container__Footer{
     height: fit-content;
+}
+
+.Section__Footer img{
+    width: 18rem;
 }
 
 .Container__Footer h2{

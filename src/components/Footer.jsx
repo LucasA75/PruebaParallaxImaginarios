@@ -22,7 +22,7 @@ const Footer = () => {
         >¿Quién Somos?</h2>
         </div>   
       </header>
-      <section className='Section__Footer row row-cols row-cols-md-3 text-center p-0 m-0'>
+      <section className='Section__Footer row row-cols row-cols-md-3 row-cols-sm-2 text-center p-0 m-0'>
         <motion.div className="col mb-4" whileHover={{scale:1.1}}>
           <img src={Person} width={300}></img>
         </motion.div>

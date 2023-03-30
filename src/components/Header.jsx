@@ -17,18 +17,6 @@ const Header = () => {
                     </div>
                 </div>
             </section>
-    {/*         <motion.div
-                style={{ width: "300px", background: "blue", height: "300px", opacity:0.2}}
-                drag
-                whileHover={{ opacity: 1 }}
-                whileTap={{
-                    opacity: 1,
-                    scale: 1.05,
-                    boxShadow: "0px 5px 8px #222",
-                }}
-                whileDrag={{ scale: 1.1, boxShadow: "0px 10px 16px #222" }}
-                transition={{ duration: 0.6 }}
-            >asdasd</motion.div> */}
         </div>
     )
 }

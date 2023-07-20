@@ -1,0 +1,62 @@
+.containerAbout {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tituloAbout {
+  grid-area: 1/1/1/3;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  font-weight: 400;
+  font-family: "Lato";
+  font-size: 100px;
+}
+
+.parrafosAbout {
+  grid-area: 2/1/2/3;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 100px;
+}
+.parrafoAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  font-size: 20px;
+}
+
+.parrafoAbout:nth-child(1) p {
+  border-top: 1px solid black;
+  margin-bottom: 195px;
+  padding-top: 30px;
+}
+
+.parrafoAbout:nth-child(2) {
+  gap: 30px;
+}
+
+.parrafoAbout:nth-child(2) button {
+  background-color: black;
+  color: white;
+  width: 170px;
+  font-size: 16px;
+  height: 54.302px;
+}
+
+.Main__Col2 p {
+  font-weight: 500;
+  font-family: "Lato";
+  font-size: 3.5vh;
+  color: black;
+}
+
+.Main__Col1 p {
+  position: sticky;
+  top: 50px;
+}

@@ -34,84 +34,14 @@ html {
 }
 
 .navContainer {
-  max-width: 1700px;
+  max-width: 1200px;
 }
 
 .site-nav {
   height: 570px;
 }
 
-/* HEADER */
-.Header__Container {
-  height: 40vh;
-  position: absolute;
-  width: 100%;
-  top: 70px;
-  display: flex;
-  justify-content: center;
-}
-
-.layout-hero {
-  --opacidad-negro: 0.5;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-image: linear-gradient(
-      rgba(0, 0, 0, var(--opacidad-negro)),
-      rgba(0, 0, 0, var(--opacidad-negro))
-    ),
-    url("./assets/PQ1.png");
-  width: 1700px;
-  max-width: 1700px;
-  height: 700px;
-}
-
-.Header__Container h1 {
-  font-weight: 400;
-  font-family: "Lato";
-  font-size: 100px;
-  margin-bottom: 60px;
-}
-
-.header-subtitle {
-  font-size: 33px;
-}
-
-.Header_Encabezados {
-  height: 300px;
-}
-
 /* ABOUT */
-
-.Container_About h2 {
-  width: 100vw;
-}
-
-.Container_About {
-  height: fit-content;
-}
-
-.Figure__About {
-  width: fit-content;
-}
-
-.Container_About h2 {
-  font-weight: 500;
-  font-family: "Lato";
-  font-size: 10vw;
-}
-
-.Main__Col2 p {
-  font-weight: 600;
-  font-family: "Lato";
-  font-size: 3.5vh;
-  color: black;
-}
-
-.Main__Col1 p {
-  position: sticky;
-  top: 50px;
-}
 
 /* Chile */
 

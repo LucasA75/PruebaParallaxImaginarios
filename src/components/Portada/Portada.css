@@ -1,0 +1,51 @@
+.Header__Container {
+  height: 40vh;
+  position: absolute;
+  width: 100vw;
+  top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.layout-hero {
+  --opacidad-negro: 0.5;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, var(--opacidad-negro)),
+      rgba(0, 0, 0, var(--opacidad-negro))
+    ),
+    url("../../assets/PQ1.png");
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+
+.portadaTitle {
+  margin-left: 100px;
+  width: 700px;
+  font-size: 70px;
+  font-weight: 400;
+}
+
+.layout-hero button {
+  border: 1px solid black;
+  height: 40px;
+  width: 170px;
+  font-size: 18px;
+  font-weight: 500;
+  /* TODO: falta agregar espaciado en el texto y boton */
+  background-color: white;
+  align-self: flex-end;
+  margin-right: 150px;
+  position: absolute;
+  margin-top: 400px;
+}
+
+.header-subtitle {
+  font-size: 33px;
+}

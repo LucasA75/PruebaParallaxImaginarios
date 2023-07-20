@@ -1,0 +1,10 @@
+.imagenesEquipo {
+  display: flex;
+  gap: 25px;
+  overflow-x: scroll;
+  padding-bottom: 50px;
+}
+
+.imagenesEquipo img {
+  width: 350px;
+}

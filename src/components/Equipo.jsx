@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import Person from "../assets/person.jpg";
 import { useInView } from "framer-motion";
-import "./css/Equipo.css";
 
 const Equipo = () => {
   const ref = useRef(null);

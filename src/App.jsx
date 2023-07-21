@@ -1,10 +1,9 @@
-import { useState } from "react";
 import "./App.css";
-import Chile from "./components/PQConChile";
+
 import LayoutHome from "./layout/LayoutHome";
-import Equipo from "./components/Equipo";
 import Portada from "./components/Portada/Portada";
 import About from "./components/About/About";
+import Presentation from "./components/CardPresentacion/Presentation";
 
 function App() {
   return (
@@ -25,8 +24,7 @@ function App() {
             "Were divided, a moved night light darkness winged may also make man for. Winged the for Earth creeping appear evening, gathered Forth so he. Life that dry of created greater can't also gathered female green."
           }
         />
-        <Chile />
-        <Equipo />
+        <Presentation />
       </LayoutHome>
     </div>
   );

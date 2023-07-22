@@ -4,6 +4,9 @@ import LayoutHome from "./layout/LayoutHome";
 import Portada from "./components/Portada/Portada";
 import About from "./components/About/About";
 import Presentation from "./components/CardPresentacion/Presentation";
+import Resumen from "./components/Resumen/Resumen";
+import Frase from "./components/Frase/Frase";
+import Temas from "./components/Temas/Temas";
 
 function App() {
   return (
@@ -25,6 +28,14 @@ function App() {
           }
         />
         <Presentation />
+        <Resumen
+          titulo={"Encontramos todo tipo de arte y exponentes en el campo"}
+          subtitulo={
+            "Won't seasons, appear days them stars replenish divided. All second forth. Him place was seas man andgathering creepeth called fly. Them sea place lights, midst bearing fourth above."
+          }
+        />
+        <Frase />
+        <Temas />
       </LayoutHome>
     </div>
   );

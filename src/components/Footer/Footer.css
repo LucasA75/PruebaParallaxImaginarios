@@ -1,0 +1,8 @@
+.containerFooter {
+  height: 642px;
+  color: white;
+  background: #0e0e0e;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  grid-template-rows: 1fr 1fr;
+}

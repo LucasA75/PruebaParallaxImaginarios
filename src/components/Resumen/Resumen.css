@@ -1,0 +1,64 @@
+.containerResumen {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: 1fr;
+  height: 600px;
+}
+
+/* FOTOS */
+.fotosResumen {
+  grid-area: 1/1/1/2;
+  display: grid;
+  grid-template-columns: 1fr 200px 200px 1fr;
+  grid-template-rows: 70px 230px 200px 40px;
+  gap: 8px;
+}
+
+.fotosResumen > img {
+  width: 100%;
+  height: 100%;
+}
+
+.fotosResumen img:nth-child(1) {
+  grid-area: 2/2/3/4;
+  width: 90%;
+  object-fit: cover;
+}
+.fotosResumen img:nth-child(2) {
+  margin-left: 70px;
+  width: 60%;
+  height: 60%;
+  grid-area: 3/2/4/2;
+  object-fit: cover;
+}
+.fotosResumen img:nth-child(3) {
+  grid-area: 3/3/4/3;
+  object-fit: cover;
+}
+
+/* PARRAFO */
+.parrafoResumen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.parrafoResumen h4 {
+  width: 80%;
+}
+
+.parrafoResumen p {
+  width: 60%;
+}
+
+.parrafoResumen button {
+  align-self: flex-end;
+  margin-right: 50px;
+  background-color: black;
+  color: white;
+  width: 150px;
+  font-size: 16px;
+  height: 45px;
+}

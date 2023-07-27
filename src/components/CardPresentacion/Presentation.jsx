@@ -2,7 +2,7 @@ import Card from "./Card/Card";
 
 const Presentation = () => {
   return (
-    <section className="p-4 bg-dark" id="Chile">
+    <section className="p-3 bg-dark" id="queEncontramosEnLaPQ">
       <h2
         style={{
           textAlign: "center",

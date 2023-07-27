@@ -6,19 +6,29 @@ const Footer = () => {
     <div className="containerFooter">
       <div className="datosPaginaFooter">
         <h5>Imaginarios en Escena</h5>
-        <p>klasdnklasnklfdankolsdampsdnklñassa</p>
+        <p>Este proyecto fue financiado por nose quien , aqui irian los datos o alguna info relacionada
+        </p>
+      </div>
+      <div className="emailFooter">
+        <p>suscribete para recibir mas info</p>
+        <label className="email">
+        <input placeholder="Tu Email" name="email"></input>
+        </label>
       </div>
       <div className="datosContactoFooter">
-        <h5>Imaginarios en Escena</h5>
-        <p>klasdnklasnklfdankolsdampsdnklñassa</p>
-      </div>
-      <div className="EmailFooter">
-        <h5>Imaginarios en Escena</h5>
-        <p>klasdnklasnklfdankolsdampsdnklñassa</p>
+        <p>Iconos de Redes sociales</p>
       </div>
       <div className="masInfoFooter">
-        <h5>Imaginarios en Escena</h5>
-        <p>klasdnklasnklfdankolsdampsdnklñassa</p>
+        <ul>
+          <li>Sobre Nosotros</li>
+          <li>Nuestro Equipo</li>
+          <li>Nuestro Trabajo</li>
+        </ul>
+        <ul>
+          <li>Terminos y condiciones</li>
+          <li>Contacto</li>
+          <li>En Proceso</li>
+        </ul>
       </div>
     </div>
   );

@@ -1,8 +1,56 @@
 .containerFooter {
-  height: 642px;
+  height: 500px;
   color: white;
   background: #0e0e0e;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   grid-template-rows: 1fr 1fr;
+  padding: 50px;
+}
+
+.emailFooter,
+.datosPaginaFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.datosPaginaFooter {
+  gap: 8px;
+}
+
+.datosPaginaFooter h5 {
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+}
+
+.datosPaginaFooter p {
+  width: 70%;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.emailFooter p {
+  color: var(--969696, #969696);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.emailFooter input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid white;
+  color: white;
+}
+.masInfoFooter {
+  display: flex;
+  gap: 40px;
 }

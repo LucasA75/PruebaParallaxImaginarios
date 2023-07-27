@@ -2,7 +2,7 @@ import Card from "./Card/Card";
 
 const Presentation = () => {
   return (
-    <section className="p-3 bg-dark" id="queEncontramosEnLaPQ">
+    <section className="p-3 bg-dark" style={{display:"flex",flexDirection:"column",alignItems:"center"}}  id="queEncontramosEnLaPQ">
       <h2
         style={{
           textAlign: "center",
@@ -13,6 +13,7 @@ const Presentation = () => {
       >
         ¿Que encontramos en la PQ?
       </h2>
+      <div style={{maxWidth:"1200px"}}>
       <Card
         titulo={"Arte Teatral"}
         subtitulo={"El arte es primordial en nuestra vida"}
@@ -34,6 +35,7 @@ const Presentation = () => {
         img={"IMG_8018.jpg"}
         orientacion={true}
       />
+      </div>
     </section>
   );
 };

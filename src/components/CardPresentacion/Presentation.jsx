@@ -1,19 +1,13 @@
 import Card from "./Card/Card";
+import "./Presentacion.css"
 
 const Presentation = () => {
   return (
-    <section className="p-3 bg-dark" style={{display:"flex",flexDirection:"column",alignItems:"center"}}  id="queEncontramosEnLaPQ">
-      <h2
-        style={{
-          textAlign: "center",
-          color: "white",
-          fontSize: "60px",
-          padding: "20px",
-        }}
-      >
+    <section className="containerPresentacion pt-4" id="queEncontramosEnLaPQ">
+      <h2 className="tituloPresentacion">
         ¿Que encontramos en la PQ?
       </h2>
-      <div style={{maxWidth:"1200px"}}>
+      <div className="cardsPresentacion" style={{maxWidth:"1200px"}}>
       <Card
         titulo={"Arte Teatral"}
         subtitulo={"El arte es primordial en nuestra vida"}

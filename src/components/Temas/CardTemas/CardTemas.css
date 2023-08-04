@@ -31,3 +31,30 @@
   background-color: transparent;
   border: 0;
 }
+
+@media (max-width: 450px) {
+  .cardContainer {
+    width: fit-content;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .textCard{
+    gap: 10px;
+  }
+
+  .textCard button {
+    align-self: flex-end;
+    margin-right: 40px;
+  }
+  .textCard p{
+    width: 70%;
+  }
+  .textCard p,.iconoCard  {
+    margin: 0 auto;
+  }
+}

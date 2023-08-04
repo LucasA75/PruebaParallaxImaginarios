@@ -1,11 +1,12 @@
-.Header__Container {
-  height: 40vh;
+/* Desktop */
+.headerContainer {
+  height: 600px;
   position: absolute;
   width: 100%;
   left: 50%;
   transform: translateX(-50%);
   max-width: 1200px;
-  top: 80px;
+  top: 60px;
 }
 
 .layoutHero {
@@ -50,4 +51,39 @@
 
 .header-subtitle {
   font-size: 33px;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .portadaTitle {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    font-size: 70px;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 600px) {
+  .portadaTitle {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    font-size: 50px;
+  }
+
+  .layoutHero button {
+    border: 1px solid transparent;
+    height: 40px;
+    width: 170px;
+    font-size: 18px;
+    font-weight: 500;
+    /* TODO: falta agregar espaciado en el texto y boton */
+    background-color: white;
+    align-self: flex-end;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }

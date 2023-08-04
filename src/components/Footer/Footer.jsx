@@ -10,7 +10,7 @@ const Footer = () => {
         </p>
       </div>
       <div className="emailFooter">
-        <p>suscribete para recibir mas info</p>
+        <p>Suscribete para recibir mas info</p>
         <label className="email">
         <input placeholder="Tu Email" name="email"></input>
         </label>

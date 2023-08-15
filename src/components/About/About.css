@@ -101,3 +101,9 @@
     gap: 20px;
   }
 }
+
+@media (max-width: 360px) {
+  .tituloAbout {
+    font-size: 40px;
+  }
+}

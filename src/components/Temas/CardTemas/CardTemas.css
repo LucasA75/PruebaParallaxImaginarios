@@ -9,10 +9,16 @@
   display: flex;
   flex-direction: column;
 }
-.iconoCard {
-  background-color: beige;
+.containerIconCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 150px;
   height: 100px;
+}
+
+.font-icon{
+  scale: 1.5;
 }
 
 .textCard h5 {

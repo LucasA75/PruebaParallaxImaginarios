@@ -1,0 +1,15 @@
+.navbar-icon {
+  display: none;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .navbar-icon {
+    display: block;
+    margin-right: 5px;
+  }
+}

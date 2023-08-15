@@ -53,6 +53,12 @@
   font-size: 33px;
 }
 
+.icon-button{
+  margin-top: 10px;
+  margin-left: 10px;
+  scale: 0.8;
+}
+
 /* Mobile */
 @media (max-width: 900px) {
   .portadaTitle {

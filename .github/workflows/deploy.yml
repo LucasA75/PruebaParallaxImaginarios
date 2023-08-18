@@ -1,0 +1,23 @@
+name: Deploy to GitHub Pages
+on:
+  push:
+    branches:
+      - gh-pages  
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build and Deploy
+        run: |
+          npm install
+          npm run build  
+          git config user.name "LucasA75"
+          git config user.email "lucasacevedocastro@gmail.com"
+          git add .
+          git commit -m "Deployed using GitHub Actions"
+          git push origin HEAD:gh-pages  
+

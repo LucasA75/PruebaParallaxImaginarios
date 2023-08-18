@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://lucasa75.github.io/PruebaParallaxImaginarios/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -17,7 +18,6 @@
     "@vitejs/plugin-react": "^3.1.0",
     "babel-plugin-macros": "^3.1.0",
     "framer-motion": "^10.6.1",
-    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -27,6 +27,7 @@
     "@vitejs/plugin-react-swc": "^3.0.0",
     "eslint": "^8.45.0",
     "eslint-plugin-react": "^7.33.0",
+    "gh-pages": "^6.0.0",
     "vite": "^4.1.0"
   }
 }

@@ -1,7 +1,12 @@
+.generalFooter{
+  background: #0e0e0e;
+}
+
 .containerFooter {
   height: 500px;
   color: white;
-  background: #0e0e0e;
+  max-width: 1400px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   grid-template-rows: 1fr 1fr;

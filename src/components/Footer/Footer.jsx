@@ -3,7 +3,8 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="containerFooter">
+    <div className="generalFooter">
+      <div className="containerFooter">
       <div className="datosPaginaFooter">
         <h5>Imaginarios en Escena</h5>
         <p>Este proyecto fue financiado por nose quien , aqui irian los datos o alguna info relacionada
@@ -29,6 +30,7 @@ const Footer = () => {
           <li>Contacto</li>
           <li>En Proceso</li>
         </ul>
+      </div>
       </div>
     </div>
   );

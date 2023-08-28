@@ -3,7 +3,7 @@
 }
 
 .containerFooter {
-  height: 500px;
+  height: 400px;
   color: white;
   max-width: 1400px;
   margin: 0 auto;
@@ -11,6 +11,18 @@
   grid-template-columns: 1fr 1.5fr;
   grid-template-rows: 1fr 1fr;
   padding: 50px;
+}
+
+.datosContactoFooter{
+  margin-top: 10px;
+  display: flex;
+  gap: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.datosContactoFooter .font-icon{
+  color: white;
 }
 
 .emailFooter,
@@ -55,9 +67,25 @@
   border-bottom: 1px solid white;
   color: white;
 }
-.masInfoFooter {
+
+.masInfoFooter{
   display: flex;
   gap: 40px;
+}
+
+.masInfoFooter ul li{
+  list-style-type: none;
+  position: relative;
+  width: fit-content;
+}
+
+.masInfoFooter li:before {
+  content: "-"; 
+  margin-right: 0.5em; 
+}
+
+.masInfoFooter li:hover span{
+  text-decoration: underline;
 }
 
 /* Mobile */
@@ -89,5 +117,11 @@
 
   .masInfoFooter {
     text-align: start;
+  }
+}
+
+@media (max-width: 700px) {
+  .masInfoFooter {
+    display: none;
   }
 }

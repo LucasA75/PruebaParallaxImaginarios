@@ -1,5 +1,5 @@
 .containerAbout {
-  height: 800px;
+  height: 900px;
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-auto-columns: 1fr 1fr;
@@ -34,7 +34,6 @@
 
 .parrafoAbout:nth-child(1) p {
   border-top: 1px solid black;
-  margin-bottom: 195px;
   padding-top: 30px;
 }
 
@@ -66,11 +65,15 @@
   .parrafosAbout {
     padding: 0px 20px;
   }
+
+  .containerAbout {
+    padding-bottom: 50px;
+  }
 }
 
 @media (max-width: 600px) {
   .containerAbout {
-    height: 650px;
+    height: 800px;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-auto-columns: 1fr 1fr;
@@ -86,7 +89,16 @@
     margin-bottom: 80px;
   }
 
+  
+  .parrafosAbout {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
   .parrafoAbout {
+    margin: 0 auto;
+    width: 90%;
     font-size: 16px;
   }
   .parrafoAbout:nth-child(2) button {
@@ -102,8 +114,15 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   .tituloAbout {
     font-size: 40px;
+    margin-bottom: 30px;
   }
+}
+  @media (max-width: 330px) {
+    .containerAbout {
+      height: 900px;
+    }
+  
 }

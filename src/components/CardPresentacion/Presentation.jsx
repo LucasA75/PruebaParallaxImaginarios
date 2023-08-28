@@ -9,24 +9,24 @@ const Presentation = () => {
       </h2>
       <div className="cardsPresentacion" style={{maxWidth:"1200px"}}>
       <Card
-        titulo={"Arte Teatral"}
-        subtitulo={"El arte es primordial en nuestra vida"}
-        img={"IMG_8018.jpg"}
+        titulo={"Escena Teatral"}
+        subtitulo={"Durante mucho tiempo, la escena teatral se constituyó como la actividad central del diseño escénico, en donde lo performativo radica en aquello que se pone en acto y completa la experiencia teatral. Así, la realización y actualización de la escena se organizan y articulan sobre la base de la distribución de elementos materiales y simbólico/conceptuales con los que el diseñador escénico trabaja, elabora lenguajes propios, además de desarrollar técnicas y tecnologías específicas."}
+        img={"ArteEscenico.jpg"}
         orientacion={true}
       />
       <Card
-        titulo={"Creacion de cosas"}
+        titulo={"Superación de las fronteras territoriales"}
         subtitulo={
-          "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) "
+          "Si bien su ocurrencia data desde 1962 y su existencia era bien conocida en el ambiente profesional especializado de nuestro país, detectamos que es en el último veintenio que su crecimiento natural se ha expandido más allá del evento en sí mismo, constituyendo hoy un referente permanente de actividad múltiple, espacio de reunión donde se traman iniciativas locales singulares y se abren al amplio contexto internacional. "
         }
         img={"IMG_7586.jpg"}
       />
       <Card
-        titulo={"Arte Teatral"}
+        titulo={"Formación y el ejercicio profesional"}
         subtitulo={
-          "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos"
+          "Sabemos que desde 1995, siete generaciones de estudiantes y profesionales han participado en distintos tiempos y modos en la Cuadrienal de Praga, con el objetivo de llevar a la exhibición internacional una obra en representación de nuestro país, compartiendo la mirada, las preguntas y las ideas que animan este quehacer local."
         }
-        img={"IMG_8018.jpg"}
+        img={"FormacionyEjercicio.jpg"}
         orientacion={true}
       />
       </div>

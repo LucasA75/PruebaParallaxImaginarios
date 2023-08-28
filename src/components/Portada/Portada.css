@@ -41,7 +41,6 @@
   width: 170px;
   font-size: 18px;
   font-weight: 500;
-  /* TODO: falta agregar espaciado en el texto y boton */
   background-color: white;
   align-self: flex-end;
   margin-right: 150px;
@@ -53,11 +52,17 @@
   font-size: 33px;
 }
 
-.icon-button{
+.headerContainer button .icon-button{
+  color: transparent;
   margin-top: 10px;
   margin-left: 10px;
   scale: 0.8;
 }
+
+.headerContainer button:hover .icon-button,button:focus .icon-button{
+  color: black;
+}
+
 
 /* Mobile */
 @media (max-width: 900px) {
@@ -72,10 +77,11 @@
 
 @media (max-width: 600px) {
   .portadaTitle {
-    margin: 0 auto;
-    text-align: center;
-    width: 90%;
     font-size: 50px;
+  }
+
+  .headerContainer button .icon-button{
+    color: black;
   }
 
   .layoutHero button {
@@ -84,12 +90,17 @@
     width: 170px;
     font-size: 18px;
     font-weight: 500;
-    /* TODO: falta agregar espaciado en el texto y boton */
     background-color: white;
     align-self: flex-end;
     position: absolute;
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 600px) {
+  .portadaTitle {
+    margin-bottom: 70px ;
   }
 }

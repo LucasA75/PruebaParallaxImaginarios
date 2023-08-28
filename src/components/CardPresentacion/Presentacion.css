@@ -6,6 +6,12 @@
   justify-content: center;
 }
 
+.cardsPresentacion{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+
 .tituloPresentacion {
   text-align: center;
   color: white;

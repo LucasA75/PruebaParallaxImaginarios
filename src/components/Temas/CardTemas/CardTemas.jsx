@@ -3,6 +3,7 @@ import "./CardTemas.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBrush } from "@fortawesome/free-solid-svg-icons";
 
+
 const CardTemas = ({ titulo, subtitulo }) => {
   return (
     <div className="cardContainer">

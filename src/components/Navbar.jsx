@@ -1,34 +1,44 @@
-import React from "react";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "./Navbar.css"
+import React,{useState} from "react";
+import useScreenDimensions from "../util/useScreenDimensions";
+import "./Navbar.css";
+import IconMobile from "./IconMobile";
 
 const Navbar = () => {
+  const [pulsed, setPulsed] = useState(false);
+  const { screenWidth } = useScreenDimensions();
+
   return (
-    <nav className="site-nav navbar-expand-md navbar-dark w-100 py-2">
-      <div className="navContainer container-fluid d-flex align-items-center">
+    <nav className={`site-nav navbar-expand-md navbar-dark w-100 py-2 ${pulsed && "pulsed"} `} >
+      <div className={`navContainer container-fluid  ${pulsed && "navContainerPulsed"}`}>
         <a className="navbar-brand font-weight-normal" href="#Inicio">
           <p className="m-0 h4">Imaginarios de la Escena</p>
         </a>
-        <div className="navbar-icon">
-          <FontAwesomeIcon icon={faBars} color="white" size="xl" />
-        </div>
-        <section className="collapse navbar-collapse" id="myTogglerNav">
-          <div
-            className="navbar-nav ms-auto text-uppercase"
-            style={{ gap: "30px" }}
-          >
-            <a className="nav-item position-relative nav-link" href="#Sobre">
-              Info
-            </a>
-            <a className="nav-item position-relative nav-link" href="#Chile">
-              Chile en la PQ
-            </a>
-            <a className="nav-item position-relative nav-link" href="#Nosotros">
-              Sobre Nosotros
-            </a>
-          </div>
-        </section>
+        {screenWidth < 767 ? 
+          <IconMobile pulsed={setPulsed}/>
+         : (
+          <section className={`NavLinks`}>
+            <div
+              className="navbar-nav ms-auto text-uppercase"
+              style={{ gap: "30px" }}
+            >
+              <a
+                className="nav-item position-relative nav-link"
+                href="#queEncontramosEnLaPQ"
+              >
+                Info
+              </a>
+              <a className="nav-item position-relative nav-link" href="#Temas">
+                Temas
+              </a>
+              <a
+                className="nav-item position-relative nav-link"
+                href="#Nosotros"
+              >
+                Sobre Nosotros
+              </a>
+            </div>
+          </section>
+        )}
       </div>
     </nav>
   );

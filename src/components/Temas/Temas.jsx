@@ -19,41 +19,42 @@ const Temas = () => {
       titulo: "Chile en la PQ",
       subtitulo:
         "Forth forth moveth shall i unto midst tree, a fruit great subdue aevery be so a fowl",
-    }
+    },
   ];
-  const {screenWidth} = useScreenDimensions()
+  const { screenWidth } = useScreenDimensions();
   return (
     <>
-    {
-      screenWidth < 1300 ? <>
-      <div className="containerTemasMobile">
-      <h2>Temas</h2>
-      <div className="cardsTemasMobile">
-        {contenidoCard.map((contenido) => (
-          <CardTemas
-            titulo={contenido.titulo}
-            subtitulo={contenido.subtitulo}
-          />
-        ))}
-      </div>
-    </div>
-      </>
-      :
-      <>
-      <div className="containerTemas">
-      <h2>Temas</h2>
-      <div className="cardsTemas">
-        {contenidoCard.map((contenido) => (
-          <CardTemas
-            titulo={contenido.titulo}
-            subtitulo={contenido.subtitulo}
-          />
-        ))}
-      </div>
-    </div>
-      </>
-    }    
-    
+      {screenWidth < 1300 ? (
+        <>
+          <div className="containerTemasMobile" id="Temas">
+            <h2>Temas</h2>
+            <div className="cardsTemasMobile">
+              {contenidoCard.map((contenido) => (
+                <CardTemas
+                  key={contenido.subtitulo}
+                  titulo={contenido.titulo}
+                  subtitulo={contenido.subtitulo}
+                />
+              ))}
+            </div>
+          </div>
+        </>
+      ) : (
+        <>
+          <div className="containerTemas" id="Temas">
+            <h2>Temas</h2>
+            <div className="cardsTemas">
+              {contenidoCard.map((contenido) => (
+                <CardTemas
+                  key={contenido.subtitulo}
+                  titulo={contenido.titulo}
+                  subtitulo={contenido.subtitulo}
+                />
+              ))}
+            </div>
+          </div>
+        </>
+      )}
     </>
   );
 };

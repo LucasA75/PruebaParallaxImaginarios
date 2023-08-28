@@ -12,7 +12,7 @@ const Card = ({ titulo, subtitulo, img, orientacion }) => {
             <span className="lineParrafo"></span>
             <h3 className="tituloParrafo">{titulo}</h3>
             <p className="subtituloParrafo">{subtitulo}</p>
-            <button className="btnParrafo">Ver Más</button>
+            {/* <button className="btnParrafo">Ver Más</button> */}
           </div>
         </div>
       ) : (
@@ -27,7 +27,7 @@ const Card = ({ titulo, subtitulo, img, orientacion }) => {
             <span className="lineParrafo"></span>
             <h3 className="tituloParrafo">{titulo}</h3>
             <p className="subtituloParrafo">{subtitulo}</p>
-            <button className="btnParrafo">Ver Más</button>
+            {/* <button className="btnParrafo">Ver Más</button> */}
           </div>
         </div>
       )}

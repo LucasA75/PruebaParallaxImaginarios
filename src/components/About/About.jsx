@@ -12,7 +12,6 @@ const About = ({ titulo, parrafo1, parrafo2 }) => {
           </div>
           <div className="parrafoAbout">
             <p>{parrafo2}</p>
-            {/* TODO: Agregar punto y orden */}
             <button>Mas Información</button>
           </div>
         </div>

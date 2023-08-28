@@ -1,0 +1,9 @@
+.NavLinksMobile{
+    display: flex;
+    flex-direction: column;
+}
+
+.linkNavbarMobile{
+    color: white;
+    text-decoration: none;
+}

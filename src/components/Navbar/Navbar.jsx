@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import useScreenDimensions from "../util/useScreenDimensions";
+import useScreenDimensions from "../../util/useScreenDimensions" 
 import "./Navbar.css";
 import IconMobile from "./IconMobile";
 

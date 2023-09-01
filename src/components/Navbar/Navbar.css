@@ -17,6 +17,7 @@
 .navContainer {
     display: flex;
     justify-content: space-between;
+    max-width: 1200px;
 }
 
 /* PULSED */
@@ -49,6 +50,7 @@
   height: 100px;
   font-size: 18px;
   border-top: 1.5px solid rgb(181, 179, 179);
+  color: white;
 }
 
 .nav-item:hover::before {

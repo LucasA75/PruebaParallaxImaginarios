@@ -13,7 +13,7 @@ const Footer = () => {
           <h5>Imaginarios en Escena</h5>
           <p>
             Esta investigación se desarrolló gracias al trabajo constante de un
-            equipo formidable que pudo apoyarse
+            equipo formidable.
           </p>
         </div>
         <div className="emailFooter">

@@ -6,6 +6,7 @@
   "homepage": "https://lucasa75.github.io/PruebaParallaxImaginarios/",
   "scripts": {
     "dev": "vite",
+    "preBuild": "del dist",
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"

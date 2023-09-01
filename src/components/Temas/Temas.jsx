@@ -8,17 +8,20 @@ const Temas = () => {
     {
       titulo: "Chile en la PQ",
       subtitulo:
-        "Forth forth moveth shall i unto midst tree, a fruit great subdue aevery be so a fowl",
+        "Por algunos años, estudiantes chilenos participaron en la PQ, mira sus presentaciones",
+      icono: 3,
     },
     {
-      titulo: "Chile en la PQ",
+      titulo: "Arte Teatral",
       subtitulo:
-        "Forth forth moveth shall i unto midst tree, a fruit great subdue aevery be so a fowl",
+        "El arte teatral en la PQ tiene una importancia gigantesca, ve algunas de sus mejores obras",
+        icono:2,
     },
     {
-      titulo: "Chile en la PQ",
+      titulo: "Nuestra Investigacion",
       subtitulo:
-        "Forth forth moveth shall i unto midst tree, a fruit great subdue aevery be so a fowl",
+      "Un equipo de investigacion muy capaz visito la PQ para ver las presentaciones",
+      icono: 1,
     },
   ];
   const { screenWidth } = useScreenDimensions();
@@ -31,9 +34,10 @@ const Temas = () => {
             <div className="cardsTemasMobile">
               {contenidoCard.map((contenido) => (
                 <CardTemas
-                  key={contenido.subtitulo}
+                  key={contenido.titulo}
                   titulo={contenido.titulo}
                   subtitulo={contenido.subtitulo}
+                  icono={contenido.icono}
                 />
               ))}
             </div>
@@ -46,9 +50,10 @@ const Temas = () => {
             <div className="cardsTemas">
               {contenidoCard.map((contenido) => (
                 <CardTemas
-                  key={contenido.subtitulo}
+                  key={contenido.titulo}
                   titulo={contenido.titulo}
                   subtitulo={contenido.subtitulo}
+                  icono={contenido.icono}
                 />
               ))}
             </div>

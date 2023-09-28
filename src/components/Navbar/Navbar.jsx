@@ -2,6 +2,7 @@ import React,{useState} from "react";
 import useScreenDimensions from "../../util/useScreenDimensions" 
 import "./Navbar.css";
 import IconMobile from "./IconMobile";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [pulsed, setPulsed] = useState(false);
@@ -30,12 +31,10 @@ const Navbar = () => {
               <a className="nav-item position-relative nav-link" href="#Temas">
                 Temas
               </a>
-              <a
+              <Link to="/Nosotros"
                 className="nav-item position-relative nav-link"
                 href="#Nosotros"
-              >
-                Sobre Nosotros
-              </a>
+              >Nosotros</Link>              
             </div>
           </section>
         )}

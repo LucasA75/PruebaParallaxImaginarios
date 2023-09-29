@@ -1,15 +1,17 @@
-import LayoutHome from "../layout/LayoutHome"; 
+import LayoutBase from "../layout/LayoutBase"; 
 import Portada from "../components/Portada/Portada";
 import About from "../components/About/About";
 import Presentation from "../components/CardPresentacion/Presentation";
 import Resumen from "../components/Resumen/Resumen";
 import Frase from "../components/Frase/Frase";
 import Temas from "../components/Temas/Temas";
+import "./Home.css"
 
 const Home = ()=> {
   return (
     <div style={{ fontFamily: "Lato" }}>
-      <LayoutHome>
+      <LayoutBase>
+        <div className="colorPortadaHome"></div>
         <Portada
           titulo={"Feria Internacional de Diseño Teatral"}
           subTitulo={
@@ -34,7 +36,7 @@ const Home = ()=> {
         />
         <Frase frase={"El arte no es lo que ves, sino lo que hace que otros vean."} artista={"Edgar Degas (1834-1917)"} />
         <Temas />
-      </LayoutHome>
+      </LayoutBase>
     </div>
   );
 }

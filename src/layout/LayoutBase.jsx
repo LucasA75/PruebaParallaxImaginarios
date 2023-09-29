@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 
-const LayoutHome = ({ children }) => {
+const LayoutBase = ({ children }) => {
   return (
     <>
       <Navbar />
@@ -12,4 +12,4 @@ const LayoutHome = ({ children }) => {
   );
 };
 
-export default LayoutHome;
+export default LayoutBase;

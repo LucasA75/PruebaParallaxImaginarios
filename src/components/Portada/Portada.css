@@ -1,12 +1,9 @@
 /* Desktop */
+
 .headerContainer {
   height: 600px;
-  position: absolute;
-  width: 100%;
-  left: 50%;
-  transform: translateX(-50%);
+  margin: 0 auto;
   max-width: 1200px;
-  top: 60px;
 }
 
 .layoutHero {

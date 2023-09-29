@@ -11,9 +11,9 @@ const Navbar = () => {
   return (
     <nav className={`site-nav navbar-expand-md navbar-dark w-100 py-2 ${pulsed && "pulsed"} `} >
       <div className={`navContainer container-fluid  ${pulsed && "navContainerPulsed"}`}>
-        <a className="navbar-brand font-weight-normal" href="#Inicio">
+        <Link className="navbar-brand font-weight-normal" to={'/'}>
           <p className="m-0 h4">Imaginarios de la Escena</p>
-        </a>
+        </Link>
         {screenWidth < 767 ? 
           <IconMobile pulsed={setPulsed}/>
          : (
@@ -33,7 +33,6 @@ const Navbar = () => {
               </a>
               <Link to="/Nosotros"
                 className="nav-item position-relative nav-link"
-                href="#Nosotros"
               >Nosotros</Link>              
             </div>
           </section>

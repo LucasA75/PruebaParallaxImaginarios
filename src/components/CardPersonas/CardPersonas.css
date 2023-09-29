@@ -1,0 +1,35 @@
+.cardPrincipal{
+    display: grid; 
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    border-radius: 15px;
+    background-color: white;
+    min-height: 400px;
+}
+
+.containerImage{
+    grid-area: 1/1/1/1;
+    margin-bottom: 15px;
+}
+
+.containerImage img{
+    border-radius: 13px 13px 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+.datoPersona{
+    padding: 0 8px;
+}
+
+.datoNombre{
+    
+}
+
+.datoOcupacion{
+
+}
+
+.datoDescripcion{
+
+}

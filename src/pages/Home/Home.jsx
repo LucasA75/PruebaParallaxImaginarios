@@ -1,10 +1,10 @@
-import LayoutBase from "../layout/LayoutBase"; 
-import Portada from "../components/Portada/Portada";
-import About from "../components/About/About";
-import Presentation from "../components/CardPresentacion/Presentation";
-import Resumen from "../components/Resumen/Resumen";
-import Frase from "../components/Frase/Frase";
-import Temas from "../components/Temas/Temas";
+import LayoutBase from "../../layout/LayoutBase"; 
+import Portada from "../../components/Portada/Portada";
+import About from "../../components/About/About";
+import Presentation from "../../components/CardPresentacion/Presentation";
+import Resumen from "../../components/Resumen/Resumen";
+import Frase from "../../components/Frase/Frase";
+import Temas from "../../components/Temas/Temas";
 import "./Home.css"
 
 const Home = ()=> {
@@ -14,9 +14,7 @@ const Home = ()=> {
         <div className="colorPortadaHome"></div>
         <Portada
           titulo={"Feria Internacional de Diseño Teatral"}
-          subTitulo={
-            "Nuestra investigacion abrira muchas puerta hacia el arte escenico. Conoce todo sobre esta"
-          }
+          AvariableButton={true}
         />
         <About
           titulo={"¿Que es la PQ ?"}

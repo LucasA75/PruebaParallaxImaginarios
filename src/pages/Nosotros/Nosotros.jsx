@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import LayoutBase from '../layout/LayoutBase'
+import LayoutBase from '../../layout/LayoutBase'
 import "./Nosotros.css"
-import CardPersonas from '../components/CardPersonas/CardPersonas'
-import personas from "../shared/Investigadores.json" 
+import CardPersonas from '../../components/CardPersonas/CardPersonas'
+import personas from "../../shared/Investigadores.json" 
 
 const Nosotros = () => {
   // eslint-disable-next-line no-unused-vars

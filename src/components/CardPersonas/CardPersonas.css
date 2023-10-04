@@ -9,6 +9,7 @@
 
 .containerImage{
     grid-area: 1/1/1/1;
+    height: 250px;
     margin-bottom: 15px;
 }
 
@@ -16,6 +17,7 @@
     border-radius: 13px 13px 0 0;
     width: 100%;
     height: 100%;
+    object-fit: fill;
 }
 
 .datoPersona{
@@ -23,13 +25,9 @@
 }
 
 .datoNombre{
-    
+    font-weight: bold;
 }
 
 .datoOcupacion{
-
-}
-
-.datoDescripcion{
-
+    font-weight: lighter;
 }

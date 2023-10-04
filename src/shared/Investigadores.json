@@ -1,33 +1,46 @@
 [{
     "nombre":"Maite",
-    "ocupacion":"Directora Proyecto",
-    "descripcion":"lorem Ipsum is simply dummy. Lorem Ipsum is",
-    "imagen": "ArteEscenico.jpg"
+    "ocupacion":"Investigadora",
+    "descripcion":"Una Breve descripcion de su rol en el proyecto",
+    "imagen": "FotoPersona.png"
 },
 {
-    "nombre":"Maite",
-    "ocupacion":"Directora Proyecto",
-    "descripcion":"lorem Ipsum is simply dummy. Lorem Ipsum is"
+    "nombre":"Daniela Portillo",
+    "ocupacion":"Investigadora",
+    "descripcion":"Una Breve descripcion de su rol en el proyecto",
+    "imagen": "FotoPersona.png"
 },
 {
-    "nombre":"Maite",
-    "ocupacion":"Directora Proyecto",
-    "descripcion":"lorem Ipsum is simply dummy. Lorem Ipsum is"
+    "nombre":"Sofia Acevedo",
+    "ocupacion":"Investigadora",
+    "descripcion":"Una Breve descripcion de su rol en el proyecto",
+    "imagen": "FotoPersona.png"
 }
 ,
 {
-    "nombre":"Maite",
-    "ocupacion":"Directora Proyecto",
-    "descripcion":"lorem Ipsum is simply dummy. Lorem Ipsum is"
+    "nombre":"Macarena Abarca",
+    "ocupacion":"Investigadora",
+    "descripcion":"Una Breve descripcion de su rol en el proyecto",
+    "imagen": "FotoPersona.png"
 },
 {
-    "nombre":"Maite",
-    "ocupacion":"Directora Proyecto",
-    "descripcion":"lorem Ipsum is simply dummy. Lorem Ipsum is"
+    "nombre":"César González",
+    "ocupacion":"Asesor metodológica, Registro visual",
+    "descripcion":"Una Breve descripcion de su rol en el proyecto",
+    "imagen": "FotoPersona.png"
 },
 {
-    "nombre":"Maite",
-    "ocupacion":"Directora Proyecto",
-    "descripcion":"lorem Ipsum is simply dummy. Lorem Ipsum is"
+    "nombre":"Lorena Herrera",
+    "ocupacion":"Asesora metodológica",
+    "descripcion":"Una Breve descripcion de su rol en el proyecto",
+    "imagen": "FotoPersona.png"
+},
+{
+    "nombre":"Danae Diaz",
+    "ocupacion":"Editora",
+    "descripcion":"Una Breve descripcion de su rol en el proyecto",
+    "imagen": "FotoPersona.png"
 }
+
+
 ]

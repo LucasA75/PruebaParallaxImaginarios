@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://lucasa75.github.io/PruebaParallaxImaginarios/",
+  "homepage": "https://imaginariosdelaescena.com",
   "scripts": {
     "dev": "vite",
     "preBuild": "del dist",

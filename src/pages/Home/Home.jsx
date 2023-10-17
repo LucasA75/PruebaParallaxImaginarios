@@ -15,6 +15,7 @@ const Home = ()=> {
         <Portada
           titulo={"Feria Internacional de Diseño Teatral"}
           AvariableButton={true}
+          imageBackground={'PQ1.png'}
         />
         <About
           titulo={"¿Que es la PQ ?"}

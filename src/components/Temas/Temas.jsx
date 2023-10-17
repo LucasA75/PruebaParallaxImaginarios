@@ -10,11 +10,12 @@ const Temas = () => {
       subtitulo:
         "Por algunos años, estudiantes chilenos participaron en la PQ, mira sus presentaciones",
       icono: 3,
+      direccion: "Chile"
     },
     {
       titulo: "Arte Teatral",
       subtitulo:
-        "El arte teatral en la PQ tiene una importancia gigantesca, ve algunas de sus mejores obras",
+        "El arte teatral en la PQ tiene muchisima Importancia, ve algunas obras en la Galeria",
         icono:2,
     },
     {
@@ -54,6 +55,7 @@ const Temas = () => {
                   titulo={contenido.titulo}
                   subtitulo={contenido.subtitulo}
                   icono={contenido.icono}
+                  direccion={contenido.direccion}
                 />
               ))}
             </div>

@@ -1,0 +1,8 @@
+.colorPortadaChile{
+    position: absolute;
+    top: 0;
+    height: 570px;
+    width: 100%;
+    z-index: -3;
+    background: linear-gradient(180deg, #000000 0%, rgba(255, 255, 255, 0.11) 100%);
+}

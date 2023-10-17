@@ -10,7 +10,7 @@ const Temas = () => {
       subtitulo:
         "Por algunos años, estudiantes chilenos participaron en la PQ, mira sus presentaciones",
       icono: 3,
-      direccion: "Chile"
+      direccion: "/Chile"
     },
     {
       titulo: "Arte Teatral",
@@ -39,6 +39,7 @@ const Temas = () => {
                   titulo={contenido.titulo}
                   subtitulo={contenido.subtitulo}
                   icono={contenido.icono}
+                  direccion={contenido.direccion}
                 />
               ))}
             </div>

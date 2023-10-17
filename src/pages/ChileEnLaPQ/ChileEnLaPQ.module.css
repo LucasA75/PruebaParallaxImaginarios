@@ -1,0 +1,70 @@
+.containerVisualYear{
+    max-width: 1200px;
+    display: flex;
+}
+
+.targetCard{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+}
+
+.targetCard p{
+    padding: 10px;
+    font-size:36px;
+    font-weight: 600;
+}
+
+.targetCard:hover{
+    color: white;
+    background-color: red;
+}
+
+.containerIMG{
+    flex: 1;
+    border: 1px solid rgb(214, 214, 214);
+    height:620px;
+}
+
+.targetCard.selected{
+    background-color: red;
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .containerVisualYear{
+        flex-direction: column;
+    }
+
+    .containerYears{
+        display: flex;
+    }
+    
+    .targetCard{
+        width: auto;
+    }
+
+    .targetCard p {
+        font-size: 25px
+    }
+}
+
+
+@media (max-width: 800px) {
+
+    .containerYears{
+        display: flex;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+    
+    .targetCard{
+        width: auto;
+    }
+
+    .targetCard p {
+        font-size: 25px
+    }
+}

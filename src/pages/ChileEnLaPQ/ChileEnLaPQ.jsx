@@ -6,6 +6,8 @@ import Carrusel from "../../components/Carrusel/Carrusel";
 import estilos from "./ChileEnLaPQ.module.css";
 
 const ChileEnLaPQ = () => {
+  const [index, setIndex] = useState();
+
   const packImg2019 = [
     "ChileEnLaPQ/2019/IMG_7593.JPG",
     "ChileEnLaPQ/2019/2019-06-16 13.16.13.jpg",
@@ -62,7 +64,9 @@ const ChileEnLaPQ = () => {
     const textoDiv = e.target.textContent;
     yearIMGCarrusel(textoDiv);
     setHoveredIndex(index);
+    setIndex(index)
   };
+
 
   const yearIMGCarrusel = (year) => {
     if (year === undefined) return null;
@@ -86,14 +90,17 @@ const ChileEnLaPQ = () => {
 
   useEffect(()=>{
     window.scrollTo(0,0)
+    setYear(packImg2019)
   },[])
+
 
   return (
     <LayoutBase>
       <Portada titulo={"Chile en la PQ"} imageBackground={"IMG_8142.jpg"} />
       <div className="colorPortadaChile"></div>
-      <section className={`${estilos.containerVisualYear} container my-5 bg-white`}>
+      <section className={`${estilos.containerVisualYear} my-5 bg-white`}>
         <div className={estilos.containerYears}>
+          
           {years.map((year,index) => (
             <div
               key={year}
@@ -106,7 +113,7 @@ const ChileEnLaPQ = () => {
         </div>
         <div className={estilos.containerIMG}>
           {yearSelect != "" ? (
-            <Carrusel imagenes={yearSelect} />
+            <Carrusel imagenes={yearSelect} index={index}/>
           ) : (
             <div>Apreta un Año</div>
           )}

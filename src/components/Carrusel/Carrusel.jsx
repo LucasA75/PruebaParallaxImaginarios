@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import estilos from "./Carrusel.module.css";
 
-const Carrusel = ({ imagenes }) => {
+const Carrusel = ({ imagenes, index }) => {
   const [imgActual, setImgActual] = useState(0);
   const cantidad = imagenes?.length;
 
@@ -11,13 +11,21 @@ const Carrusel = ({ imagenes }) => {
     setImgActual(imgActual === cantidad - 1 ? 0 : imgActual + 1);
   };
 
+  // Al cambiar el index(desde el componente padre) , setea la imagen actual a 0
+  useEffect(()=>{
+    setImgActual(0)
+  },[index])
+
   useEffect(() => {
     const intervalId = setInterval(() => {
       siguienteImg();
     }, 5000);
+    console.log(imgActual)
     verificacionIMG()
     // Limpiar el intervalo cuando el componente se desmonte
-    return () => clearInterval(intervalId);
+    return () => {
+      clearInterval(intervalId)
+    };
   }, [imgActual]);
 
 
@@ -26,6 +34,7 @@ const Carrusel = ({ imagenes }) => {
       setImgActual(0)
     }
   }
+
 
   return (
     <div className={estilos.container}>

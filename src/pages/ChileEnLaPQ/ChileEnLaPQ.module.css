@@ -1,6 +1,7 @@
 .containerVisualYear{
     max-width: 1200px;
     display: flex;
+    margin: 0 auto;
 }
 
 .targetCard{
@@ -26,6 +27,7 @@
     flex: 1;
     border: 1px solid rgb(214, 214, 214);
     height:620px;
+    margin-left: 30px;
 }
 
 .targetCard.selected{

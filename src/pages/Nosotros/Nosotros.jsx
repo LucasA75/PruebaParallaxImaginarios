@@ -7,7 +7,6 @@ import personas from "../../shared/Investigadores.json"
 const Nosotros = () => {
   // eslint-disable-next-line no-unused-vars
   const [person, setPersonas] = useState(personas)
-
   return (
     <div style={{ fontFamily: "Lato" }}>
     <LayoutBase>

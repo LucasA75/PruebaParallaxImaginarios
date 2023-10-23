@@ -3,7 +3,7 @@ import "./Presentacion.css"
 
 const Presentation = () => {
   return (
-    <section className="containerPresentacion pt-4" id="queEncontramosEnLaPQ">
+    <section className="containerPresentacion pt-4" id="Info">
       <h2 className="tituloPresentacion">
         ¿Que encontramos en la PQ?
       </h2>

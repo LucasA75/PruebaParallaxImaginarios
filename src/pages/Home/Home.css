@@ -7,3 +7,6 @@
     background: linear-gradient(180deg, #ff004d 0%, rgba(255, 0, 77, 0.11) 100%);
 }
 
+:root{
+    --red: #ed1e24;
+}

@@ -10,14 +10,14 @@ const Presentation = () => {
       <div className="cardsPresentacion" style={{maxWidth:"1200px"}}>
       <Card
         titulo={"Escena Teatral"}
-        subtitulo={"Durante mucho tiempo, la escena teatral se constituyó como la actividad central del diseño escénico, en donde lo performativo radica en aquello que se pone en acto y completa la experiencia teatral. Así, la realización y actualización de la escena se organizan y articulan sobre la base de la distribución de elementos materiales y simbólico/conceptuales con los que el diseñador escénico trabaja, elabora lenguajes propios, además de desarrollar técnicas y tecnologías específicas."}
+        subtitulo={"Durante mucho tiempo, el diseño escénico se centró en la creación de la escenografía y elementos visuales para enriquecer la experiencia teatral, incorporando elementos materiales y simbólicos que el diseñador escénico utilizaba para desarrollar técnicas y lenguajes específicos."}
         img={"ArteEscenico.jpg"}
         orientacion={true}
       />
       <Card
         titulo={"Superación de las fronteras territoriales"}
         subtitulo={
-          "Si bien su ocurrencia data desde 1962 y su existencia era bien conocida en el ambiente profesional especializado de nuestro país, detectamos que es en el último veintenio que su crecimiento natural se ha expandido más allá del evento en sí mismo, constituyendo hoy un referente permanente de actividad múltiple, espacio de reunión donde se traman iniciativas locales singulares y se abren al amplio contexto internacional. "
+          "Aunque se conoce desde 1962, en las últimas dos décadas, este evento ha crecido significativamente, convirtiéndose en un punto de encuentro para iniciativas locales y una plataforma internacional. "
         }
         img={"IMG_7586.jpg"}
       />

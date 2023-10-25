@@ -42,9 +42,11 @@
 }
 
 .parrafoAbout:nth-child(2) button {
-  background-color: black;
-  color: white;
-  width: 170px;
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  padding: 10px;
   font-size: 16px;
   height: 54.302px;
 }
@@ -102,9 +104,7 @@
     font-size: 16px;
   }
   .parrafoAbout:nth-child(2) button {
-    background-color: black;
-    color: white;
-    width: 130px;
+    width: fit-content;
     font-size: 14px;
     height: 35px;
     align-self: flex-end; 

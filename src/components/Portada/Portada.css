@@ -29,15 +29,16 @@
 
 .layoutHero button {
   border: 1px solid black;
-  height: 40px;
-  width: 170px;
-  font-size: 18px;
-  font-weight: 500;
+  height: 45px;
+  padding: 30px;
   background-color: white;
   align-self: flex-end;
   margin-right: 150px;
   position: absolute;
   margin-top: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-subtitle {
@@ -45,14 +46,8 @@
 }
 
 .headerContainer button .icon-button{
-  color: transparent;
-  margin-top: 10px;
-  margin-left: 10px;
-  scale: 0.8;
-}
-
-.headerContainer button:hover .icon-button,button:focus .icon-button{
   color: black;
+  margin-left: 10px;
 }
 
 
@@ -79,9 +74,8 @@
   .layoutHero button {
     border: 1px solid transparent;
     height: 40px;
-    width: 170px;
     font-size: 18px;
-    font-weight: 500;
+    width: 250px;
     background-color: white;
     align-self: flex-end;
     position: absolute;

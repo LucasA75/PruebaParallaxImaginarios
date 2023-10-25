@@ -1,5 +1,7 @@
 import React from "react";
 import "./Resumen.css";
+import Button from "../Button/Button";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Resumen = ({ titulo, subtitulo }) => {
   return (
@@ -12,7 +14,7 @@ const Resumen = ({ titulo, subtitulo }) => {
       <div className="parrafoResumen">
         <h4>{titulo}</h4>
         <p>{subtitulo}</p>
-        <button>Leer Más</button>
+        <Button text={'Leer Más'} icon={faArrowRight}></Button>
       </div>
     </section>
   );

@@ -4,7 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBrush } from "@fortawesome/free-solid-svg-icons";
 import { faPalette } from "@fortawesome/free-solid-svg-icons";
 import { faFontAwesome } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import Button from "../../Button/Button";
 
 
 const CardTemas = ({ titulo, subtitulo, icono,direccion }) => {
@@ -23,7 +24,7 @@ const CardTemas = ({ titulo, subtitulo, icono,direccion }) => {
       <div className="textCard">
         <h5>{titulo}</h5>
         <p>{subtitulo}</p>
-        <Link className="enlaceCard" to={direccion}>Leer Más</Link>
+        <Button toAdress={direccion} style={'noFill'} text={'Leer Más'} icon={faArrowRight}></Button>
       </div>
     </div>
   );

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import LayoutBase from "../../layout/LayoutBase";
 import Portada from "../../components/Portada/Portada";
-import "./ChileEnLaPQ.css";
 import Carrusel from "../../components/Carrusel/Carrusel";
 import estilos from "./ChileEnLaPQ.module.css";
 
@@ -97,7 +96,7 @@ const ChileEnLaPQ = () => {
   return (
     <LayoutBase>
       <Portada titulo={"Chile en la PQ"} imageBackground={"IMG_8142.jpg"} />
-      <div className="colorPortadaChile"></div>
+      <div className={estilos.colorPortadaChile}></div>
       <section className={`${estilos.containerVisualYear} my-5 bg-white`}>
         <div className={estilos.containerYears}>
           

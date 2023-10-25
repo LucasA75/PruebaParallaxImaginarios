@@ -25,12 +25,13 @@ const Home = ()=> {
           parrafo2={
             "Las versiones que se revisaron fueron las de 1995, 1999, 2003, 2007, 2011 , 2015 y 2019, siendo ésta última el espacio que se encontró para poder realizar entrevistas e indagar en las interrogantes que han movilizado este proceso."
           }
+          button={{link: 'https://pq.cz/',text: 'Mas información'}}
         />
         <Presentation />
         <Resumen
           titulo={"¿Productor, artista, creador?"}
           subtitulo={
-            "El principal elemento que nos sirvió para poder llegar al cuestionamiento del tipo de profesional que comparece en la cuadrienal, fue el contraste que fuimos haciendo de los perfiles de egreso de los estudiantes de acuerdo con distintos lugares de formación en diseño teatral, escenográfico o escénico."
+            "Hemos empezado a cuestionarnos sobre el tipo de profesional que participa en la Cuadrienal al comparar los perfiles de los estudiantes de diseño teatral, escenográfico o escénico en diferentes instituciones. Esta comparación nos lleva a evaluar críticamente la formación y enfoques pedagógicos en distintas instituciones, lo que nos ayudará a entender mejor la diversidad de enfoques educativos en el diseño escénico."
           }
         />
         <Frase frase={"El arte no es lo que ves, sino lo que hace que otros vean."} artista={"Edgar Degas (1834-1917)"} />

@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from "react";
+import React,{ useState} from "react";
 import useScreenDimensions from "../../util/useScreenDimensions" 
 import "./Navbar.css";
 import IconMobile from "./IconMobile";
@@ -9,9 +9,6 @@ const Navbar = () => {
   const { screenWidth } = useScreenDimensions();
   const location = useLocation().pathname;
 
-  useEffect(()=>{
-    console.log(location)
-  },[])
     return (
     <nav className={`site-nav navbar-expand-md navbar-dark w-100 py-3 ${pulsed && "pulsed"} `} >
       <div className={`navContainer container-fluid  ${pulsed && "navContainerPulsed"}`}>

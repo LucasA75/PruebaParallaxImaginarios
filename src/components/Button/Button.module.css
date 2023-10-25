@@ -1,0 +1,64 @@
+.fill a, .noFill a,.default a{
+    text-decoration: none;
+}
+
+.fill{
+    color: white;
+    background-color:black;
+}
+
+.noFill a, .default a{
+    color: black;
+}
+
+.noFill {
+    border: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    background-color: white;
+}
+
+.default{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.noFill:hover, .default:hover {
+    border: none;
+    color: white !important;
+}
+
+.default:hover{
+    background-color: var(--red);
+}
+
+.default:hover > * , .noFill > * {
+    color: white;
+}
+
+.default:hover .iconButton , .noFill:hover .iconButton{
+    transform: rotate(-30deg);
+    animation: rotateLeft 0.2s linear alternate;
+}
+
+.iconButton{
+    margin-left: 10px;
+    scale: 0.7;
+    transition: transform 0.3s;
+}
+
+.noFill .iconButton{
+    color: black;
+}
+
+@keyframes rotateLeft {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-30deg);
+    }
+}

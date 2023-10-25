@@ -21,7 +21,7 @@ const Card = ({ titulo, subtitulo, img, orientacion }) => {
           style={{ gridTemplateColumns: "1fr 1.5fr" }}
         >
           <div className="imgCard" style={{ gridArea: "1/2/1/3" }}>
-            <img src={img} />
+            <img src={img} alt="Foto PQ" loading="lazy" />
           </div>
           <div className="parrafoCard " style={{ gridArea: "1/1/1/2" }}>
             <span className="lineParrafo"></span>

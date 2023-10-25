@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
-
+import "./App.css"
 import NoPage from './pages/NoPage/NoPage';
 import Home from './pages/Home/Home';
 import Nosotros from './pages/Nosotros/Nosotros';
